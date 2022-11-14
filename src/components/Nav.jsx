@@ -1,8 +1,9 @@
 import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
-
+import { useState } from 'react'
 
 function Nav() {
+    const [isOpen, setCount] = useState(false)
   return (
     <>
     <header>
@@ -14,7 +15,7 @@ function Nav() {
         </div>
         <nav>
   
-            <div class="menu">
+            <div class="menu" >
                 <ul>
                     <Link to="/" ><li>Home</li></Link>
                     <Link to="/places" ><li>Place to stay</li></Link>
