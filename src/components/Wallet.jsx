@@ -1,24 +1,29 @@
 import React from 'react'
 
-function Wallet() {
+function Wallet(props) {
+    
   return (
-    <section class="wallet">
+    <section class="wallet" open={ props.x }>
+        
         <div class="sec">
             <div class="top">
                 <h3>Connect wallet</h3>
-                <p>x</p>
+                <p onClick={props.close}>x</p>
             </div>
             <hr />
             <div class="bottom">
                 <h5>choose preferred wallet</h5>
-                <div class="mm">
-                    <img src="/img/WalletConnect.svg" alt="" />
+                <div class="ws">
+                    <img src="img/Frame 195.svg" alt="" />
+                    <img src="img/VectorArr.svg" alt="" class="arr" />
                 </div>
-                <div class="w">
-                    alt
+                <div class="ws c">
+                    <img src="img/WC.svg" alt="" />
+                    <img src="img/VectorArr.svg" alt="" class="arr" />
                 </div>
             </div>
         </div>
+        
     </section>
   )
 }

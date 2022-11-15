@@ -62,12 +62,13 @@ ul, .menu {
     z-index: 999;        
     display: none;
     margin-top: -3rem;
-    backdrop-filter: blur(2px);
-    align-items: center;  
+    backdrop-filter: blur(10px);
+    align-items: center; 
+    justify-content: center;; 
 }
 
 .menu[opened="true"] {
-    display: block;
+    display: flex;
 }
 
 ul {
@@ -296,10 +297,14 @@ footer li {
     width: 100%;
     
     background: rgba(0 0 0 / 0.5);
-    display: grid;
+    display: none;
     place-items: center;
     overflow: hidden;
     
+}
+
+.wallet[open]{
+    display:grid
 }
 
 .sec {

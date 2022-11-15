@@ -8,12 +8,23 @@ import Place from './pages/Place'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [walletOpen, setwalletOpen] = useState(false)
+
+  const wallet = () => {
+    setwalletOpen(true)
+    console.log(walletOpen)
+}
+
+  const close = () => {
+    setwalletOpen(false)
+    console.log(walletOpen)
+  }
 
   return (
     <>
       
       <Router>
-        <Nav />
+        <Nav onClick={wallet} close={close} x={walletOpen}/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/places" element={<Place />} />

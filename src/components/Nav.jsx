@@ -1,12 +1,18 @@
 import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import { useState } from 'react'
+import Wallet from './Wallet'
 
-function Nav() {
+function Nav(props) {
     const [open, setopen] = useState(false)
+    
+
     const navOpen = () => {
         setopen(!open)
     }
+
+    
+
   return (
     <>
     <header>
@@ -25,12 +31,14 @@ function Nav() {
                     <li><Link to="/" >NFTs</Link></li>
                     <li><Link to="/" >Community</Link></li>
                 </ul>
-                <button>Connect to wallet</button>
+                <button onClick={props.onClick}>Connect to wallet</button>
             </div>
             
         </nav>
          
     </header>
+    <Wallet close={props.close} x={props.x}/>
+
     <Outlet />
     </>
   )
