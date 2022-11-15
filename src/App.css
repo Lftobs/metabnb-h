@@ -66,6 +66,10 @@ ul, .menu {
     align-items: center;  
 }
 
+.menu[opened="true"] {
+    display: block;
+}
+
 ul {
     
     width: 100%;
