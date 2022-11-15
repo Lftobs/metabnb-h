@@ -17,10 +17,10 @@ function Nav() {
   
             <div class="menu" >
                 <ul>
-                    <Link to="/" ><li>Home</li></Link>
+                    <li><Link to="/" >Home</Link></li>
                     <li><Link to="/places" >Place to stay</Link></li>
-                    <Link to="/" ><li>NFTs</li></Link>
-                    <Link to="/" ><li>Community</li></Link>
+                    <li><Link to="/" >NFTs</Link></li>
+                    <li><Link to="/" >Community</Link></li>
                 </ul>
                 <button>Connect to wallet</button>
             </div>
