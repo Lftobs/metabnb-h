@@ -18,7 +18,7 @@ function Home() {
                 <div class="g-txt">
                     <h4>Inspiration for your next adventure</h4>
                 </div>
-                <Grid />
+                <Grid id={['/img/Frame 151.svg', '/img/Frame 151A.svg', '/img/Frame 151B.svg', '/img/Frame 151C.svg', '/img/Frame 151D.svg', '/img/Frame 151E.svg', '/img/Frame 151F.svg', '/img/Frame 151G.svg' ]}/>
             </section>
             <section class="hero a" >
                 <div class="txt">

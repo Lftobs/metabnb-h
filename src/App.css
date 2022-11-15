@@ -307,6 +307,11 @@ footer li {
     display:grid
 }
 
+.wallet p {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
 .sec {
     background: white;
     color: var(--black);
