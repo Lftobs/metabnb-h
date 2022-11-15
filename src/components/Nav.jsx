@@ -18,7 +18,7 @@ function Nav() {
             <div class="menu" >
                 <ul>
                     <Link to="/" ><li>Home</li></Link>
-                    <Link to="/places" ><li>Place to stay</li></Link>
+                    <li><Link to="/places" >Place to stay</Link></li>
                     <Link to="/" ><li>NFTs</li></Link>
                     <Link to="/" ><li>Community</li></Link>
                 </ul>
