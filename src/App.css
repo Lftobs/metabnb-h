@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700:900&display=swap');
 
 
 * {
@@ -201,8 +201,14 @@ input {
 .c-txt {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4%;
     
+    
+}
+
+.c-txt h6 {
+    font-size: .51rem;
+    font-weight: 900;
+    margin-bottom: .3rem;
 }
 
 .l {
