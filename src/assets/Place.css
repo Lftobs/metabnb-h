@@ -31,7 +31,7 @@
 }
 
 .p ul::-webkit-scroollbar {
-    display: none
+    display: none;
 }
 
 .p li {
