@@ -30,8 +30,9 @@
     scrollbar-width: none;
 }
 
-.p ul::-webkit-scroollbar {
-    display: none;
+.p ul::-webkit-scrollbar {
+    background: transparent;
+    
 }
 
 .p li {
