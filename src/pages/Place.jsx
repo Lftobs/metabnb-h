@@ -3,9 +3,11 @@ import '../assets/Place.css'
 import Grid from '../components/Grid'
 import Footer from '../components/Footer'
 
+
 function Place() {
   return (
     <>
+      
         <section class="p">
             <nav>
               <ul>
@@ -24,8 +26,8 @@ function Place() {
         </section>
         <section class="pg">
           
-          <Grid id={['/img/Frame 151 (1).svg', '/img/Frame 151 (2).svg', '/img/Frame 151 (3).svg', '/img/Frame 151.svg', '/img/Frame 151 (4).svg', '/img/Frame 151 (5).svg', '/img/Frame 151 (6).svg', '/img/Frame 151 (7).svg']}/>
-          <Grid id={['/img/Frame 151 (8).svg', '/img/Frame 151 (10).svg', '/img/Frame 151 (11).svg', '/img/Frame 151 (12).svg', '/img/Frame 151 (13).svg', '/img/Frame 151 (14).svg', '/img/Frame 151A.svg', '/img/Frame 151 (7).svg']}/>
+          <Grid id={['Frame_151D_jfvv83', 'Frame_151_13_csx0l6', 'Frame_151A_xvuxri', 'Frame_151G_cwaxo8', 'Frame_151_vubpca', 'Frame_151A_xvuxri', 'Frame_151B_a6dnqr', 'Frame_151C_dsgmmb']}/>
+          <Grid id={['Frame_151_8_so6cbq', 'Frame_151_9_hg9vk2', 'Frame_151_10_dxhrg2', 'Frame_151_11_ibbfnh', 'Frame_151_12_lhibex', 'Frame_151_13_csx0l6', 'Frame_151_14_ockpy1', 'Frame_151E_s0it0w']}/>
         </section>
         <Footer />
     </>

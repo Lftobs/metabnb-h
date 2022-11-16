@@ -1,11 +1,13 @@
 import React from 'react'
+import { CloudinaryContext, Transformation, Image} from 'cloudinary-react'
 
 function Grid(props) {
   return (
     <>
+        <CloudinaryContext cloudName="dh9zsffcy">
         <div class="imgs">
                 <div class="cards">
-                    <img src={props.id[0]} id={props.id[0]} alt="" />
+                    <Image publicId={props.id[0]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -16,7 +18,7 @@ function Grid(props) {
                 </div>
                 
                 <div class="cards">
-                    <img src={props.id[1]} alt="" />
+                    <Image publicId={props.id[1]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -27,7 +29,7 @@ function Grid(props) {
                 </div>
                 
                 <div class="cards">
-                    <img src={props.id[2]} alt="" />
+                    <Image publicId={props.id[2]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -38,7 +40,7 @@ function Grid(props) {
                 </div>
                 
                 <div class="cards">
-                    <img src={props.id[3]} alt="" />
+                    <Image publicId={props.id[3]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -57,7 +59,7 @@ function Grid(props) {
             
             <div class="imgs">
                 <div class="cards">
-                    <img src={props.id[4]} alt="" />
+                    <Image publicId={props.id[4]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -68,7 +70,7 @@ function Grid(props) {
                 </div>
                 
                 <div class="cards">
-                    <img src={props.id[5]} alt="" />
+                    <Image publicId={props.id[5]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -79,7 +81,7 @@ function Grid(props) {
                 </div>
                 
                 <div class="cards">
-                    <img src={props.id[6]} alt="" />
+                    <Image publicId={props.id[6]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -90,7 +92,7 @@ function Grid(props) {
                 </div>
                 
                 <div class="cards">
-                    <img src={props.id[7]} alt="" />
+                    <Image publicId={props.id[7]} class="img" />
                     <div class="c-txt">
                         <h6>Desert king</h6>
                         <h6 class="l">1MBT per night</h6>
@@ -106,6 +108,7 @@ function Grid(props) {
                 
                
             </div>
+            </CloudinaryContext>
     </>
   )
 }

@@ -12,13 +12,13 @@ function Home() {
             <div class="sponsors">
                 <img src="img/Group 4040.svg" alt="" />
                 <img src="img/Group 59537.svg" alt="" />
-                <img src="img/OpenSea.svg" alt="" />
+                <img src="img/Frame 4041.svg" alt="" />
             </div>
             <section>
                 <div class="g-txt">
                     <h4>Inspiration for your next adventure</h4>
                 </div>
-                <Grid id={['/img/Frame 151.svg', '/img/Frame 151A.svg', '/img/Frame 151B.svg', '/img/Frame 151C.svg', '/img/Frame 151D.svg', '/img/Frame 151E.svg', '/img/Frame 151F.svg', '/img/Frame 151G.svg' ]}/>
+                <Grid id={['Frame_151_vubpca', 'Frame_151A_xvuxri', 'Frame_151B_a6dnqr', 'Frame_151C_dsgmmb', 'Frame_151D_jfvv83', 'Frame_151_13_csx0l6', 'Frame_151A_xvuxri', 'Frame_151G_cwaxo8' ]}/>
             </section>
             <section class="hero a" >
                 <div class="txt">
