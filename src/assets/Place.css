@@ -26,7 +26,12 @@
     font-size: 2rem;
     font-weight: 700;
     background: rgba(0 0 0 / 0.1);
-    
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.p ul::-webkit-scroollbar {
+    display: none
 }
 
 .p li {

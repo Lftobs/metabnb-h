@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/Place.css'
 import Grid from '../components/Grid'
-
+import Footer from '../components/Footer'
 
 function Place() {
   return (
@@ -27,7 +27,7 @@ function Place() {
           <Grid id={['/img/Frame 151 (1).svg', '/img/Frame 151 (2).svg', '/img/Frame 151 (3).svg', '/img/Frame 151.svg', '/img/Frame 151 (4).svg', '/img/Frame 151 (5).svg', '/img/Frame 151 (6).svg', '/img/Frame 151 (7).svg']}/>
           <Grid id={['/img/Frame 151 (8).svg', '/img/Frame 151 (10).svg', '/img/Frame 151 (11).svg', '/img/Frame 151 (12).svg', '/img/Frame 151 (13).svg', '/img/Frame 151 (14).svg', '/img/Frame 151A.svg', '/img/Frame 151 (7).svg']}/>
         </section>
-        
+        <Footer />
     </>
 
   )
